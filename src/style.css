@@ -1,0 +1,101 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial;
+    width: 1350px;
+    height: 3000px;
+}
+
+.navbar {
+    height: 312px;
+    background-color: #111827;
+}
+
+.logo, .logodiv > a {
+    height: 20px;
+    margin: 20px;
+    color: white; 
+}
+
+.logodiv, .last-content {
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    margin: 0;
+    padding: 20px;
+}
+
+.navbar-text {
+    color: white;
+    margin: 40px;
+}
+
+.sign {
+    margin-top: 80px;
+}
+
+.second-page {
+    display: flex;
+    flex-direction: column; 
+    width: 1350px;
+}
+
+.about {
+    height: 250px;
+    width: 600px;
+    margin: 20px;
+    padding: 20px;
+    line-height: 1.7;
+    color: #4B5563
+}
+
+.about, .feedback > h2 {
+    color: black;
+}
+
+.feedback, .showcase {
+    height: 600px;
+    width: 600px;
+    margin: 80px 20px;
+    padding: 20px;
+    line-height: 1.7;
+    border: 3px solid #7C3AED;
+}
+
+.links {
+    display: flex;
+    color: #7C3AED;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.links-in-line {
+    color: #7C3AED;
+    font-weight: bolder;
+}
+
+.links > span {
+    margin-right: 30px;
+}
+
+.main-image {
+    width: 600px;
+}
+
+.last-content > img {
+    height: 40px;
+}
+
+.gray {
+    color: #6B7280;
+}
+
+.last-content {
+    padding-top: 100px;
+    border-top: 1px solid #111827;
+}
+
+
+
+
+
